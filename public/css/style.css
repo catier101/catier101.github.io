@@ -145,7 +145,14 @@ body {
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
+    background-image: url('../images/bg1.jpeg');
+    background-size:100% 100%;
+}
   }
+.site-wrapper-inner {
+    background-image: url('../images/bg1.jpeg');*/
+}
+}
   /* Handle the widths */
   .masthead,
   .mastfoot,
