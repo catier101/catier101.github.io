@@ -2,3 +2,4 @@
 2. add background image
 3. add components and make the page "flow"
 4. custom domain
+5. make sidebar with responsive links to positioning on page

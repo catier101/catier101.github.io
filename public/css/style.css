@@ -53,6 +53,7 @@ body {
 .cover-container {
   margin-right: auto;
   margin-left: auto;
+  margin-top:20%;
 }
 
 /* Padding for spacing */
@@ -165,6 +166,7 @@ body {
   .mastfoot,
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    vertical-align: middle;
   }
 }
 
