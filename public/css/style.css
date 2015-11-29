@@ -34,6 +34,7 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  margin:0px;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -118,6 +119,10 @@ body {
   font-weight: bold;
 }
 
+/*.inner-cover {
+  margin:auto;
+}*/
+
 
 /*
  * Footer
@@ -147,6 +152,7 @@ body {
   .site-wrapper {
     vertical-align: middle;
     background-image: url('../images/bg1.jpeg');
+    opacity: 80%;
 }
   }
 .site-wrapper {
