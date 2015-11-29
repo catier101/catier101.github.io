@@ -1,2 +1,13 @@
-4. custom domain
-5. make sidebar with responsive links to positioning on page
+- custom domain
+
+- make sidebar with responsive links to positioning on page
+  - about
+  - web development projects
+  - programming projects
+
+- fill in information for featurettes
+  1. about
+    - description
+    - circular photo
+  2. web design projects -- ref (http://grokcode.com/programmer-portfolio/)
+  3. github favorite links

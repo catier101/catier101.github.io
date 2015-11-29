@@ -150,6 +150,13 @@ body {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
+  color:grey;
+  position:relative;
+}
+
+.about {
+  background-color: rgb(157, 198, 205);
+  padding:100px;
 }
 
 /*
@@ -193,4 +200,5 @@ body {
   .cover-container {
     width: 700px;
   }
+
 }
