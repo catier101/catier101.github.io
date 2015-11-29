@@ -1,3 +1,2 @@
-1. add custom fonts
 4. custom domain
 5. make sidebar with responsive links to positioning on page
