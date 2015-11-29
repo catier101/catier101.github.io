@@ -159,11 +159,26 @@ body {
   padding:100px;
 }
 
+.about .lead {
+  font-size:20px;
+}
+
+.about .col-md-5 .featurette-image {
+  display:inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+
 /*
  * Affix and center
  */
 
 @media (min-width: 768px) {
+
   /* Pull out the header and footer */
   .masthead {
     position: fixed;

@@ -2,6 +2,7 @@
 
 - make sidebar with responsive links to positioning on page
   - about
+  - contact
   - web development projects
   - programming projects
 
