@@ -1,6 +1,6 @@
 - custom domain
 
-- make sidebar with responsive links to positioning on page
+- make sidebar with responsive links to positioning on page + add javascript
   - about
   - contact
   - web development projects
@@ -12,3 +12,5 @@
     - circular photo
   2. web design projects -- ref (http://grokcode.com/programmer-portfolio/)
   3. github favorite links
+
+- add "back to top" button
