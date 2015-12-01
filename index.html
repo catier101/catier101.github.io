@@ -73,15 +73,24 @@
       </div>
       <div class = "sidebar">
         <ul class = "nav">
-          <li><a href="#">☯ Home</a></li>
-          <li><a href = "#about">☯  About</a></li>
+          <li class="dropdown">
+              <a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Navigation<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href = "#about">About</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href = "#web">Web Development</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href = "#programming">Programming</a></li>
+                <li role="separator" class="divider"></li>
+              </ul>
+            </li>
       </div>
 
     </div>
     <!-- <hr class="featurette-divider"> -->
 
+    <a name = "about"></a>
     <div class ="about">
-      <a name = "about"></a>
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">About Me <span class="text-muted"></span></h2>
@@ -95,17 +104,46 @@
 
     <!-- <hr class="featurette-divider"> -->
 
+    <a name = "web"></a>
+    <div class = "web">
     <div class="row featurette">
       <div class="col-md-7 col-md-push-5">
-        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+        <h2 class="featurette-heading">Web Development<span class="text-muted">Current Projects</span></h2>
+        <h1 class="lead"></p>
+      </div>
+      <div class = "weblinks">
+      <div class="col-md-5 col-md-pull-7">
+        <a href = "rheimaid.com">
+      <div class = "web1">
+        <img class="featurette-image img-responsive center-block img" src="public/images/SUSHI CAT copy.jpg" alt="Generic placeholder image">
+        <span class = "lead">Rhei-Maid</span>
+      </div>
+    </a>
+      <hr class = "webdiv">
+      <!-- <div class = "web2">
+        <img class="featurette-image img-responsive center-block img" src="public/images/SUSHI CAT copy.jpg" alt="Generic placeholder image">
+        <span class = "lead">something cool coming soon...</span>
+      </div> -->
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- <hr class="featurette-divider"> -->
+
+    <a name = "programming"></a>
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
       </div>
-      <div class="col-md-5 col-md-pull-7">
+      <div class="col-md-5">
         <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+      </div>
       </div>
     </div>
 
-    <hr class="featurette-divider">
+    <!-- <hr class="featurette-divider"> -->
 
     <div class="row featurette">
       <div class="col-md-7">
@@ -115,9 +153,8 @@
       <div class="col-md-5">
         <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
       </div>
+      </div>
     </div>
-
-    <hr class="featurette-divider">
 
 
     <!-- Bootstrap core JavaScript

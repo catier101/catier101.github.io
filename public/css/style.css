@@ -4,15 +4,17 @@
 
 /* Links */
 a,
-a:focus,
-a:hover {
+a:hover{
   color: #fff;
+}
+
+a:focus {
+  background-color: transparent;
 }
 
 /* Custom default button */
 .btn-default,
-.btn-default:hover,
-.btn-default:focus {
+.btn-default:hover,{
   color: #333;
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
@@ -87,7 +89,7 @@ body {
   border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
+.masthead-nav > li > a:focus{
   background-color: transparent;
   border-bottom-color: #a9a9a9;
   border-bottom-color: rgba(255,255,255,.25);
@@ -95,8 +97,13 @@ body {
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
+  background-color: transparent;
   color: #fff;
   border-bottom-color: #fff;
+}
+
+.site-wrapper > .sidebar > li:focus {
+  background-color: transparent;
 }
 
 @media (min-width: 768px) {
@@ -146,18 +153,32 @@ body {
 }
 
 /* Navbar */
-.sidebar .nav {
+.sidebar .nav .dropdown {
   font-size:15px;
   position:fixed;
   margin-top:auto;
   right:0;
-  width:100px;
-  text-align:center;
+  width:120px;
+  text-align:left;
   text-shadow:1px black;
+  background-color: transparent;
 }
 
-.sidebar .nav:hover {
-  background-color: none;
+.dropdown-menu {
+  background-color: white;
+}
+
+.sidebar > .nav > li > a:hover {
+  color:grey;
+  background-color: transparent;
+}
+
+.sidebar > .nav > li > a:active {
+  background-color: transparent;
+}
+
+.sidbar > li > .divider {
+  width:10px;
 }
 
 /* Thin out the marketing headings */
@@ -175,17 +196,41 @@ body {
   padding:100px;
 }
 
-.about .lead {
+.lead {
   font-size:20px;
 }
 
-.about .col-md-5 .featurette-image {
+.col-md-5 .featurette-image {
   display:inline-block;
   height: 200px;
   width: 200px;
   border-radius: 100%;
   margin-top:auto;
   margin-bottom:auto;
+}
+
+.web {
+  background-color:rgb(246, 234, 238);
+  padding-top:100px;
+  padding-bottom:100px;
+  color:white;
+}
+
+.web .col-md-5 .featurette-image {
+  height:100px;
+  width:100px;
+  padding:10px;
+}
+
+.weblinks {
+  text-align:center;
+}
+
+.text-muted {
+  font-size:20px;
+  margin-left:10px;
+  color:rgb(159, 159, 159);
+  text-shadow:10px black;
 }
 
 
@@ -223,6 +268,10 @@ body {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
     vertical-align: middle;
   }
+  .featurette {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -231,5 +280,13 @@ body {
   .cover-container {
     width: 700px;
   }
-
+  .web1 {
+    display:inline;
+    position:absolute;
+    top:0;
+    left:0;
+  }
+  .weblinks {
+    text-align:left;
+  }
 }
