@@ -80,6 +80,8 @@
                 <li role="separator" class="divider"></li>
                 <li><a href = "#web">Web Development</a></li>
                 <li role="separator" class="divider"></li>
+                <li><a href = "#contact">Contact Me</a></li>
+                <li role="separator" class="divider"></li>
                 <li><a href = "#programming">Programming</a></li>
                 <li role="separator" class="divider"></li>
               </ul>
@@ -130,21 +132,26 @@
     </div>
 
     <a name = "contact"></a>
+    <div class = "contact">
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">Contact Me! <span class="text-muted"></span></h2>
         <!-- <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p> -->
       </div>
-      <div class="col-md-5">
-        <form action = "takeform.php" method = "POST">
+      <!-- <div class="col-md-5"> -->
+      <div class = "form"
+        <br>
+        <form action = "php/takeform.php" method = "POST">
           <p>
-            <input name = "email"/>Your email goes here
+            Email: <input name = "email"/>
           </p>
           <p>
-            <input name = "realname"/>Your name
+            Your Name: <input name = "realname"/>
           </p>
           <p>
-            <input name = "body"/>Type your message here!
+            Whats up?
+            <br>
+            <input name = "body"/>
           </p>
           <p>
             <input type = "submit" name = "submit" value = "send!"/>

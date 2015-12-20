@@ -233,6 +233,19 @@ body {
   text-shadow:10px black;
 }
 
+.contact {
+  background-color:rgb(210, 231, 221);
+  padding:100px;
+}
+
+.form {
+  padding-left:20%;
+  font-size:30px;
+}
+
+input {
+  color:grey;
+}
 
 /*
  * Affix and center
