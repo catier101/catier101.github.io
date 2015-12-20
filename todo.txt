@@ -7,7 +7,6 @@
   - programming projects
 
 - fill in information for featurettes
-  1. contact form -- send email
   2. web design projects -- ref (http://grokcode.com/programmer-portfolio/)
   3. github favorite links
 

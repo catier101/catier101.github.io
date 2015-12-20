@@ -74,7 +74,7 @@
       <div class = "sidebar">
         <ul class = "nav">
           <li class="dropdown">
-              <a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Navigation<span class="caret"></span></a>
+              <a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><p class = "barhead">Navigation</p><span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href = "#about">About</a></li>
                 <li role="separator" class="divider"></li>
@@ -143,15 +143,14 @@
         <br>
         <form action = "//formspree.io/catier101@gmail.com" method = "POST">
           <p>
-            Email: <input name = "email" placeholder = "your email here"/>
+            Email: <input type = "text" size = "30" name = "email" placeholder = "your email here" class = "oneline"/>
           </p>
           <p>
-            Name: <input name = "realname" placeholder = "your name here"/>
+            Name: <input type = "text" size = "30" name = "name" placeholder = "your name here" class = "oneline"/>
           </p>
           <p>
             Whats up?
-            <br>
-            <input name = "body" placeholder = "put your message here!"/>
+            <textarea name = "body" cols = "30" placeholder = "put your message here!" class = "msg"></textarea>
           </p>
           <p>
             <input type = "submit" name = "submit" value = "send!"/>
