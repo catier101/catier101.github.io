@@ -245,7 +245,10 @@ body {
 
 input {
   color:grey;
+  font-size:20px;
 }
+
+.input
 
 /*
  * Affix and center

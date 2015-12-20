@@ -3,7 +3,7 @@
 <title>Thanks For Contacting Me!</title>
 </head>
 <body>
-<?php
+<php
   // Change this to YOUR address
   $recipient = 'catier101@gmail.com';
   $email = $_POST['email'];
