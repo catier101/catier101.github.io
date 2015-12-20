@@ -244,8 +244,12 @@ body {
   text-align:left;
 }
 
-.form {
+/*.contact h2 {
   padding-left:20%;
+}*/
+
+.form {
+  padding-right: 15%;
   font-size:30px;
   float:center;
   color:grey;
@@ -255,6 +259,7 @@ body {
    -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
         box-sizing: border-box;
 }
+
 
 /*.oneline {
   width:2em;
@@ -307,6 +312,11 @@ body {
   .contact .form {
     text-align: right;
   }
+
+  .contact h2 {
+    text-align:center;
+  }
+
 }
 
 @media (min-width: 992px) {
