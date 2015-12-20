@@ -249,10 +249,10 @@ body {
 }*/
 
 .form {
-  padding-right: 15%;
+  margin-right: 10%;
   font-size:30px;
   float:center;
-  color:grey;
+  color:white;
   font-size:20px;
 
   -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
@@ -260,8 +260,8 @@ body {
         box-sizing: border-box;
 }
 
-.form p {
-  color:white;
+.form .input {
+  color:grey;
 }
 
 .msg {
