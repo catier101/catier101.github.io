@@ -260,10 +260,9 @@ body {
         box-sizing: border-box;
 }
 
-
-/*.oneline {
-  width:2em;
-}*/
+.form p {
+  color:white;
+}
 
 .msg {
   vertical-align: top;
