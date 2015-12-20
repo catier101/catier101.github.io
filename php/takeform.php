@@ -3,8 +3,8 @@
 <title>Thanks For Contacting Me!</title>
 </head>
 <body>
-<php
-  // Change this to YOUR address
+<?php
+  if// Change this to YOUR address
   $recipient = 'catier101@gmail.com';
   $email = $_POST['email'];
   $realName = $_POST['realname'];

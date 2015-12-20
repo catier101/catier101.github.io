@@ -19,4 +19,6 @@
 
 - customize navbar
   - fix hover --> change from focus to hover color
-  - fix 
+  - fix
+
+- format contact form
