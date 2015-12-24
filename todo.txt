@@ -18,4 +18,7 @@
 
 - customize navbar
   - fix hover --> change from focus to hover color
-  - fix
+  - change to 3 lines
+  - make dropdown smoother
+
+- ADD JSCRIPT TRANSITION EVERYWHERE
