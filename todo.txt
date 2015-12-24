@@ -1,5 +1,3 @@
-- custom domain
-
 - make sidebar with responsive links to positioning on page + add javascript; show active position somehow
   - about
   - contact
@@ -21,4 +19,14 @@
   - change to 3 lines
   - make dropdown smoother
 
+- fix weird padding on mobile of contact form...move next to about?
+  - make an about page
+
+- make separate page with examples of Riot API usage
+
 - ADD JSCRIPT TRANSITION EVERYWHERE
+
+
+
+~ LATER ~
+- custom domain

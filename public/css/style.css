@@ -137,6 +137,17 @@ body {
   font-size: 70px;
 }
 
+.back-to-top {
+  position:fixed;
+  float:left;
+  height:50px;
+  width:50px;
+  right:10;
+  bottom:10;
+  z-index: 100;
+  font-size:40px;
+}
+
 
 /*
  * Footer
