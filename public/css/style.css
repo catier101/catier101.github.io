@@ -32,9 +32,8 @@ body {
   width: 100%;
   background-color: white;
   align:center;
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden;
+  margin: 0 ;
+  padding: 0;
 }
 
 body {
@@ -48,9 +47,10 @@ body {
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
-  width: 100%;
+  min-width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
+  overflow-x: visible;
   -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
           box-shadow: inset 0 0 100px rgba(0,0,0,.5);
 }
@@ -190,8 +190,9 @@ body {
  */
 
 .mastfoot {
-  position:absolute
+  position:relative;
   bottom:0;
+  float:center;
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
   width:100%;
@@ -325,7 +326,7 @@ nav ul ul li {
 }*/
 
 .form {
-  /*margin-right: 10%;*/
+  margin-right: 10%;
   font-size:30px;
   float:center;
   color:white;
@@ -365,7 +366,7 @@ nav ul ul li {
   .site-wrapper {
     vertical-align: middle;
     background-image: url('../images/bg1.jpeg');
-    opacity: 80%;
+    : 80%;
 }
   }
 .site-wrapper {
@@ -377,8 +378,7 @@ nav ul ul li {
   .masthead,
   .mastfoot,
   .cover-container {
-    position:absolute;
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    width: 90%; /* Must be percentage or pixels for horizontal alignment */
     vertical-align: middle;
   }
   .featurette {
@@ -400,7 +400,7 @@ nav ul ul li {
   .mastfoot,
   .cover-container {
     position:absolute;
-    width: 100%;
+    width: 90%;
   }
   .web1 {
     display:inline;
@@ -413,3 +413,10 @@ nav ul ul li {
   }
 
 }
+
+ /*FOR DEBUGGING PURPOSES*/
+/** {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}*/

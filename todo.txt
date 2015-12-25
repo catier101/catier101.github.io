@@ -24,6 +24,8 @@
 
 - ADD JSCRIPT TRANSITION EVERYWHERE
 
+- source is broken...acting as fixed element; problem with overflow
+
 
 
 ~ LATER ~

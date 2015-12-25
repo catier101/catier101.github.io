@@ -19,3 +19,17 @@ function scrollToTop() {
 	offsetTop = offset.top;
 	$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
 }
+
+$('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 1000);
+    return false;
+});
+
+// $('#dLabel').click(function(){
+// 	$(this).data('clicked', true);
+// 	if ($('#dLabel').data('clicked')) {
+// 		alert('yes');
+// 	})
+// }
