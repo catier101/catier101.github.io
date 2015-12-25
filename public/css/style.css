@@ -204,9 +204,15 @@ body {
   background-color: white;
 }
 
-.barhead {
-  font-size:20px;
-  display:inline;
+.glyphicon-menu-hamburger {
+  position:fixed;
+  font-size:30px;
+  right:30px;
+  top:30px;
+  z-index:100;
+  background-color: rgb(205, 200, 203);
+  border:1px solid grey;
+  padding:10px;
 }
 
 .sidebar > .nav > li > a:hover {
