@@ -8,8 +8,6 @@
   2. web design projects -- ref (http://grokcode.com/programmer-portfolio/)
   3. github favorite links
 
-- add "back to top" button
-
 - make project pages actual separate PAGES that can be added to or click to drop down...but put current / proudest work on top 2
 
 - hover to display description of websites

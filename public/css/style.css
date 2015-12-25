@@ -170,8 +170,10 @@ body {
   cursor:pointer;
 	opacity: 1.0;
 }
-.scroll-top-wrapper i.fa {
+.scroll-top-wrapper i {
 	line-height: inherit;
+  height: 30px;
+  width: 30px;
 }
 
 /*
@@ -204,6 +206,11 @@ body {
   background-color: white;
 }
 
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: transparent;
+    border-color: #337ab7;
+}
+
 .glyphicon-menu-hamburger {
   position:fixed;
   font-size:30px;
@@ -215,17 +222,17 @@ body {
   padding:10px;
 }
 
-.sidebar > .nav > .dropdown > .dropdown-menu > a:hover {
-  color:none;
-  background-color: transparent;
-}
-
 .sidebar > .nav > li > a:active {
   background-color: transparent;
 }
 
 .sidebar > li > .divider {
   width:10px;
+}
+
+.sidebar .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: transparent;
+    border-color: #337ab7;
 }
 
 nav ul li {
