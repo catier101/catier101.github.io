@@ -1,32 +1,21 @@
-jQuery(document).ready(function() {
-  var offset = 200;
-  var duration = 300;
-    jQuery(window).scroll(function() {
-      if (jQuery(this).scrollTop() > offset) {
-        jQuery('.back-to-top').fadeIn(duration);
-      } else {
-        jQuery('.back-to-top').fadeOut(duration);
-      }
-    });
- &nbsp;
- jQuery('.back-to-top').click(function(event) {
-   event.preventDefault();
-   jQuery('html, body').animate({scrollTop: 0}, duration);
-   return false;
- })
- });
-}
+$(function(){
 
-function move(element) {
-  var left = 0
-  function frame() {
-    left++
+	$(document).on( 'scroll', function(){
 
-    element.style.left = left + 'px'
-    if left == 100 {
-      clearInterval(id)
-    }
-    var id = setInterval(frame, 10)
+		if ($(window).scrollTop() > 100) {
+			$('.scroll-top-wrapper').addClass('show');
+		} else {
+			$('.scroll-top-wrapper').removeClass('show');
+		}
+	});
 
-  }
+	$('.scroll-top-wrapper').on('click', scrollToTop);
+});
+
+function scrollToTop() {
+	verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+	element = $('body');
+	offset = element.offset();
+	offsetTop = offset.top;
+	$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
 }
