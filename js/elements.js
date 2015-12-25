@@ -23,8 +23,13 @@ function scrollToTop() {
 $('a').click(function(){
     $('html, body').animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 1000);
+    }, 800);
     return false;
+});
+
+$('#dLabel').click(function(){
+  $('#links').toggle('1000');
+  $("i",this).toggleClass("icon-circle-arrow-up icon-circle-arrow-down");
 });
 
 // $('#dLabel').click(function(){
