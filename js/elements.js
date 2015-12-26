@@ -27,10 +27,31 @@ $('a').click(function(){
     return false;
 });
 
-$('#dLabel').click(function(){
-  $('#links').toggle('1000');
-  $("i",this).toggleClass("icon-circle-arrow-up icon-circle-arrow-down");
-});
+// $(document).ready(function(){
+// 	var header = $('.site-wrapper');
+//
+// 	var backgrounds = new Array(
+// 			'url(../public/images/bg2.jpeg)'
+// 		, 'url(../public/images/bg3.jpeg)'
+// 		, 'url(../public/images/bg4.jpeg)'
+// 	);
+//
+// 	var current = 0;
+//
+// 	function nextBackground() {
+// 	    current++;
+// 	    current = current % backgrounds.length;
+// 	    header.css('background-image', backgrounds[current]);
+// 	}
+// 	setInterval(nextBackground, 1000);
+//
+// 	header.css('background-image', backgrounds[0]);
+
+//THIS CODE IS BROKEN..SUPPOSED TO CHANGE ICON OF NAVBAR
+// $('#dLabel').click(function(){
+//   $('#links').toggle('1000');
+//   $("i",this).toggleClass("icon-circle-arrow-up icon-circle-arrow-down");
+// });
 
 // $('#dLabel').click(function(){
 // 	$(this).data('clicked', true);

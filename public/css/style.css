@@ -200,10 +200,6 @@ body {
   width:100%;
 }
 
-.featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
-}
-
 /* Navbar */
 .sidebar .nav .dropdown {
   font-size:15px;
@@ -218,7 +214,7 @@ body {
 }
 
 .dropdown-menu {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.6);
   top:100px;
   z-index:999;
 }
@@ -379,12 +375,10 @@ nav ul ul li {
   /* Start the vertical centering */
   .site-wrapper {
     vertical-align: middle;
-    background-image: url('../images/bg1.jpeg');
-    : 80%;
 }
   }
 .site-wrapper {
-    background-image: url('../images/bg1.jpeg');
+    background-image: url(../images/bg4.jpeg);
     background-size:100% 100%;
 }
 }

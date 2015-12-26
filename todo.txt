@@ -1,8 +1,7 @@
-- make sidebar with responsive links to positioning on page + add javascript; show active position somehow
-  - about
-  - contact
-  - web development projects
-  - programming projects
+BACKGROUND -- make images change (and focus?) and change opacity
+
+- show active position in sidebar, continue to customize...change focus to change in text color
+  - when clicked, change to different icon / shape, javascript expand sidebar
 
 - fill in information for featurettes
   2. web design projects -- ref (http://grokcode.com/programmer-portfolio/)
@@ -24,9 +23,9 @@
 
 - ADD JSCRIPT TRANSITION EVERYWHERE
 
-- source is broken...acting as fixed element; problem with overflow
-
 
 
 ~ LATER ~
 - custom domain
+- fix probem with overflow
+- take a more professional picture
