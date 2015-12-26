@@ -279,7 +279,7 @@ nav ul ul li {
 }
 
 .pace .pace-progress {
-  background: #4b4b4b;
+  background: white;
   position: fixed;
   z-index: 2000;
   top: 0;
