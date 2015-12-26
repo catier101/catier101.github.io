@@ -6,7 +6,9 @@
 
 - hover to display description of websites
 
-- customize navbar
+- have 3 overview things start as lighter color and darken / hover pic on DIV HOVER
+
+- customize dropdown
   - fix hover --> change from focus to text hover color
   - show active link on page
   - make dropdown smoother, change to hover open not click
@@ -14,10 +16,8 @@
   - when clicked, change to different icon / shape
 
 - fix weird padding on mobile of contact form...move next to about?
-  - hover icons
   - make an about PAGE
 
-- format hrs
 - fix weird blue color that shows up on active links
 
 - make separate page / featurette with examples of Riot API usage...instagram API feed? do as frame app?
@@ -29,3 +29,5 @@
 - ADD JSCRIPT TRANSITION EVERYWHERE
 - fix problem with overflow
 - take a more professional picture
+- make small websites to add to portfolio
+- add small javascript games / animations

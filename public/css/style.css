@@ -329,10 +329,24 @@ nav ul ul li {
   color:grey;
   position:relative;
 }
+  /* Glyph, by Harry Roberts */
 
 .featurette-divider {
-  color:gold;
-  width:100%;
+      padding: 0;
+      border: none;
+      border-top: medium double rgb(164, 164, 164);
+      text-align: center;
+      /*color: rgb(164, 164, 164);*/
+      width:20%;
+}
+.featurette-divider:after {
+      content: "§";
+      display: inline-block;
+      position: relative;
+      top: -0.7em;
+      font-size: 1.5em;
+      padding: 0 0.25em;
+      background: white;
 }
 
 .work-overview .featurette-heading {
