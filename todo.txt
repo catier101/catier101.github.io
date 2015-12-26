@@ -1,5 +1,3 @@
-BACKGROUND -- make images change (and focus?) and change opacity
-
 - show active position in sidebar, continue to customize...change focus to change in text color
   - when clicked, change to different icon / shape, javascript expand sidebar
 
@@ -13,9 +11,11 @@ BACKGROUND -- make images change (and focus?) and change opacity
 
 - customize navbar
   - fix hover --> change from focus to hover color
-  - make dropdown smoother
+  - make dropdown smoother, change to hover open not click
+  - fix so positions differently on mobile (put in corner of page)
 
 - fix weird padding on mobile of contact form...move next to about?
+  - add 3 icons about work (ex front end, back end, friendly???)
   - make an about page
 
 - make separate page with examples of Riot API usage

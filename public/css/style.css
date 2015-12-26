@@ -4,8 +4,9 @@
 
 /* Links */
 a,
-a:hover{
-  color: #fff;
+a:hover,
+a:visited{
+  color: white;
 }
 
 a:focus {
@@ -15,7 +16,7 @@ a:focus {
 /* Custom default button */
 .btn-default,
 .btn-default:hover,{
-  color: #333;
+  color: white;
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
   border: 1px solid #fff;
@@ -103,7 +104,7 @@ body {
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
   background-color: transparent;
-  color: #fff;
+  color: white;
   border-bottom-color: #fff;
 }
 
@@ -142,6 +143,7 @@ body {
   color:white;
   font-size: 70px;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  width:auto;
 }
 
 .inner-cover {
