@@ -27,6 +27,12 @@ $('a').click(function(){
     return false;
 });
 
+$(".hover").hover(function(){
+ $(this).stop().animate({"top" : "-20px"});
+}, function(){
+ $(this).stop().animate({"top": "0"});
+})
+
 // $(document).ready(function(){
 // 	var header = $('.site-wrapper');
 //

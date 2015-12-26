@@ -6,7 +6,7 @@
 a,
 a:hover,
 a:visited{
-  color: white;
+  color: rgb(176, 176, 176);
 }
 
 a:focus {
@@ -162,8 +162,8 @@ body {
 	width: 50px;
 	height: 48px;
 	line-height: 48px;
-	right: 50px;
-	bottom: 50px;
+	right: 0px;
+	bottom: 0px;
 	padding-top: 2px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
@@ -208,7 +208,7 @@ body {
   position:fixed;
   margin-top:auto;
   width:140px;
-  right:70px;
+  right:0px;
   text-align:left;
   text-shadow:1px black;
   background-color: transparent;
@@ -223,19 +223,23 @@ body {
 .dropdown-menu {
   /*opacity:0;*/
   background-color: rgba(255, 255, 255, 0.6);
-  top:100px;
+  top:50px;
   z-index:999;
 }
 
 .glyphicon-menu-hamburger {
   position:fixed;
   font-size:30px;
-  right:50px;
-  top:50px;
+  right:0px;
+  top:0px;
   z-index:100;
   background-color: black;
   border:1px solid white;
   padding:10px;
+}
+
+.glyphicon-menu-hamburger:active {
+  color:white;
 }
 
 .dropdown a:hover ul {
@@ -331,6 +335,21 @@ nav ul ul li {
   width:100%;
 }
 
+.work-overview .featurette-heading {
+  color:inherit;
+  font-weight: bold;
+}
+
+.work-overview p {
+  font-size:20px;
+}
+
+.workicon .glyphicon {
+  font-size:70px;
+  color:rgb(55, 55, 55);
+  padding:30px;
+}
+
 .about {
   /*background-color: rgb(157, 198, 205);*/
   padding:100px;
@@ -378,6 +397,8 @@ nav ul ul li {
 }
 
 .web .glyphicon-cutlery {
+  height:50px;
+  width:50px;
   font-size:30px;
   color:rgb(43, 41, 41);
   border-radius:100%;
@@ -431,6 +452,20 @@ nav ul ul li {
     position: absolute;
     bottom: 0;
   }
+  .glyphicon-menu-hamburger {
+    right:50px;
+    top:50px;
+  }
+
+  .scroll-top-wrapper {
+    right: 50px;
+    bottom: 50px;
+  }
+  .sidebar .nav .dropdown {
+    right:70px;
+    top:50px;
+  }
+
   /* Start the vertical centering */
   .site-wrapper {
     vertical-align: middle;
