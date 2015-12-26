@@ -13,7 +13,6 @@ BACKGROUND -- make images change (and focus?) and change opacity
 
 - customize navbar
   - fix hover --> change from focus to hover color
-  - change to 3 lines
   - make dropdown smoother
 
 - fix weird padding on mobile of contact form...move next to about?

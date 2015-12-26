@@ -211,9 +211,15 @@ body {
   text-shadow:1px black;
   background-color: transparent;
   z-index:999;
+  -webkit-transition: all .25s ease;
+   -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+     -o-transition: all .25s ease;
+        transition: all .25s ease;
 }
 
 .dropdown-menu {
+  /*opacity:0;*/
   background-color: rgba(255, 255, 255, 0.6);
   top:100px;
   z-index:999;
@@ -230,7 +236,11 @@ body {
   padding:10px;
 }
 
-.sidebar > .nav > li > a:active {
+.dropdown a:hover ul {
+  opacity:1;
+}
+
+.sidebar > .nav > li > a:hover:after {
   background-color: transparent;
 }
 
@@ -238,7 +248,15 @@ body {
   width:10px;
 }
 
-nav ul li {
+.dropdown-menu li:hover {
+  background-color:pink;
+   -webkit-transition: all 0.2s;
+}
+.dropdown-menu li a { -webkit-transition: all 0.5s; }
+.dropdown-menu li ul { -webkit-transition: all 1s; }
+.dropdown-menu li ul li { -webkit-transition: height 0.5s; }
+
+/*nav ul li {
     display:  block;
     float: left;
 }
@@ -253,7 +271,15 @@ nav ul li:hover > ul {
 nav ul ul li {
     display: block;
     float: none;
-}
+}*/
+
+/*nav li ul {
+  -webkit-transition: all .25s ease;
+   -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+     -o-transition: all .25s ease;
+        transition: all .25s ease;
+}*/
 
 #dLabel {
   background-color: transparent;
