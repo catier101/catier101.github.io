@@ -5,6 +5,7 @@
 - make project pages actual separate PAGES that can be added to or click to drop down...but put current / proudest work on top 2
 
 - hover to display description of websites
+- on ABOUT featurette, make pic and text slide in on page scroll and slide out on page scroll away...similiar animations for others
 
 - have 3 overview things start as lighter color and darken / hover pic on DIV HOVER
 

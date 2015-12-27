@@ -366,7 +366,7 @@ nav ul ul li {
 
 .about {
   /*background-color: rgb(157, 198, 205);*/
-  padding:100px;
+  padding:-100px;
 }
 
 .lead {
