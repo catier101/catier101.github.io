@@ -31,11 +31,68 @@ $('a').click(function(){
     return false;
 });
 
-$(".hover").hover(function(){
- $(this).stop().animate({"top" : "-20px"});
+$(".hover-first").hover(function(){ //LOOK FOR CONDENSED WAY TO DO THIS
+ $(".workicon1").stop().animate({"top" : "-20px"});
 }, function(){
- $(this).stop().animate({"top": "0"});
+ $(".workicon1").stop().animate({"top": "0"});
 })
+
+$(".hover-second").hover(function(){
+ $(".workicon2").stop().animate({"top" : "-20px"});
+}, function(){
+ $(".workicon2").stop().animate({"top": "0"});
+})
+
+$(".hover-third").hover(function(){
+ $(".workicon3").stop().animate({"top" : "-20px"});
+}, function(){
+ $(".workicon3").stop().animate({"top": "0"});
+})
+//
+// $(".hover").hover(function(){ //LOOK FOR CONDENSED WAY TO DO THIS
+// 	$(".hovertrue").hover(function(){
+// 		var true = 0;
+// 	}
+//  $(".workicon1").stop().animate({"top" : "-20px"});
+// }, function(){
+//  $(".workicon1").stop().animate({"top": "0"});
+// })
+
+function animate(opts) { // review this
+
+  var start = new Date
+
+  var id = setInterval(function() {
+    var timePassed = new Date - start
+    var progress = timePassed / opts.duration
+
+    if (progress > 1) progress = 1
+
+    var delta = opts.delta(progress)
+    opts.step(delta)
+
+    if (progress == 1) {
+      clearInterval(id)
+    }
+  }, opts.delay || 10)
+
+}
+
+function animateText(textArea) {
+  var text = textArea.value
+  var to = text.length, from = 0
+
+  animate({
+    delay: 20,
+    duration: 1000,
+    delta: delta,
+    step: function(delta) {
+      var result = (to-from) * delta + from
+      textArea.value = text.substr(0, Math.ceil(result))
+    }
+  })
+}
+
 
 // $(document).ready(function(){
 // 	var header = $('.site-wrapper');

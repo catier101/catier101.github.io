@@ -3,11 +3,11 @@
   3. github favorite links
 
 - make project pages actual separate PAGES that can be added to or click to drop down...but put current / proudest work on top 2
+  - maybe change layout of this...
 
 - hover to display description of websites
 - on ABOUT featurette, make pic and text slide in on page scroll and slide out on page scroll away...similiar animations for others
-
-- have 3 overview things start as lighter color and darken / hover pic on DIV HOVER
+  - make some text have typing animation
 
 - customize dropdown
   - fix hover --> change from focus to text hover color
@@ -32,3 +32,4 @@
 - take a more professional picture
 - make small websites to add to portfolio
 - add small javascript games / animations
+- make at least 3 show-worthy ruby/python/js games to link from github...one for each language?
