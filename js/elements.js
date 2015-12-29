@@ -58,40 +58,40 @@ $(".hover-third").hover(function(){
 //  $(".workicon1").stop().animate({"top": "0"});
 // })
 
-function animate(opts) { // review this
+// function animate(opts) { // review this
+//
+//   var start = new Date
+//
+//   var id = setInterval(function() {
+//     var timePassed = new Date - start
+//     var progress = timePassed / opts.duration
+//
+//     if (progress > 1) progress = 1
+//
+//     var delta = opts.delta(progress)
+//     opts.step(delta)
+//
+//     if (progress == 1) {
+//       clearInterval(id)
+//     }
+//   }, opts.delay || 10)
+//
+// }
 
-  var start = new Date
-
-  var id = setInterval(function() {
-    var timePassed = new Date - start
-    var progress = timePassed / opts.duration
-
-    if (progress > 1) progress = 1
-
-    var delta = opts.delta(progress)
-    opts.step(delta)
-
-    if (progress == 1) {
-      clearInterval(id)
-    }
-  }, opts.delay || 10)
-
-}
-
-function animateText(textArea) {
-  var text = textArea.value
-  var to = text.length, from = 0
-
-  animate({
-    delay: 20,
-    duration: 1000,
-    delta: delta,
-    step: function(delta) {
-      var result = (to-from) * delta + from
-      textArea.value = text.substr(0, Math.ceil(result))
-    }
-  })
-}
+// function animateText(textArea) {
+//   var text = textArea.value
+//   var to = text.length, from = 0
+//
+//   animate({
+//     delay: 20,
+//     duration: 1000,
+//     delta: delta,
+//     step: function(delta) {
+//       var result = (to-from) * delta + from
+//       textArea.value = text.substr(0, Math.ceil(result))
+//     }
+//   })
+// }
 
 
 // $(document).ready(function(){
