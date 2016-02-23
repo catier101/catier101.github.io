@@ -1,6 +1,10 @@
 - fill in information for featurettes
-  2. web design projects -- ref (http://grokcode.com/programmer-portfolio/)
+  2. web design projects -- ref (http://grokcode.com/programmer-portfolio/) --> Add Binary Life Site
   3. github favorite links
+
+- Instagram API photostream
+
+- opencv integration
 
 - make project pages actual separate PAGES that can be added to or click to drop down...but put current / proudest work on top 2
   - maybe change layout of this...
