@@ -422,7 +422,7 @@ nav ul ul li {
   text-shadow:10px black;
 }
 
-.web .glyphicon-cutlery {
+.web .glyphicon-cutlery, .glyphicon-floppy-open {
   height:50px;
   width:50px;
   font-size:30px;
@@ -431,15 +431,8 @@ nav ul ul li {
   padding:10px;
 }
 
-.weblink {
-  display:inline-block;
-  position:absolute;
-  text-align: left;
-  margin-left:20%;
-}
-
 .links {
-  
+  text-align:center;
 }
 
 .contact {
@@ -532,6 +525,12 @@ nav ul ul li {
     text-align:center;
   }
 
+  .links .weblink {
+      display:inline-block;
+      position:absolute;
+      margin:0 auto;
+  }
+
 }
 
 @media (min-width: 992px) {
@@ -549,6 +548,12 @@ nav ul ul li {
   }
   .weblinks {
     text-align:left;
+  }
+
+  .links .weblink {
+      display:inline-block;
+      position:absolute;
+      margin:0 auto;
   }
 
 }
