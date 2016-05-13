@@ -22,6 +22,10 @@ a:focus {
   border: 1px solid #fff;
 }
 
+li {
+  list-style-type: none;
+}
+
 
 /*
  * Base structure
