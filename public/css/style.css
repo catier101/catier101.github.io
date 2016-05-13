@@ -333,6 +333,10 @@ nav ul ul li {
   color:grey;
   position:relative;
 }
+
+.headingcenter {
+  align:center;
+}
   /* Glyph, by Harry Roberts */
 
 .featurette-divider {
