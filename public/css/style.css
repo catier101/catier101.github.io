@@ -334,9 +334,6 @@ nav ul ul li {
   position:relative;
 }
 
-.headingcenter {
-  align:center;
-}
   /* Glyph, by Harry Roberts */
 
 .featurette-divider {
@@ -559,6 +556,7 @@ nav ul ul li {
       position:absolute;
       margin:0 auto;
   }
+
 
 }
 
