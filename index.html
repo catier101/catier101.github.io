@@ -224,6 +224,27 @@
 
     <hr class="featurette-divider">
 
+    <a name = "instagram" id = "instagram"></a>
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Instagram API <span class="text-muted"></span></h2>
+        <!-- <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p> -->
+      </div>
+      <div class="col-md-5" id = "instafeed">
+        <script type="text/javascript">
+          var feed = new Instafeed({
+          get: 'user',
+          userId: '245477935',
+          clientId: '2f32ff166b7041399936f182086d444f'
+          show: 10;
+          });
+          feed.run();
+        </script>
+      </div>
+      </div>
+
+    <hr class="featurette-divider">
+
     <a name = "programming" id = "programming"></a>
     <div class="row featurette">
       <div class="col-md-7">
@@ -234,7 +255,6 @@
         <!-- <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image"> -->
       </div>
       </div>
-
 
     <!-- <hr class="featurette-divider"> -->
 
@@ -257,6 +277,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/elements.js"></script>
     <script src="js/pace.js"></script>
+    <script type="text/javascript" src="js/instafeed.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
